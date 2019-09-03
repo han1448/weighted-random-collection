@@ -7,6 +7,13 @@ The weighted random collection is the collection to get the value randomly by we
 WeightedRandomCollection<String> collection = new WeightedRandomCollection<>();
 ```
 
+### Add element
+```java
+collection.add(5, "This is 50%!!!!!");
+collection.add(3, "This is 30%!!!");
+collection.add(1, "This is 10%!");
+```
+
 ### Get element
 ```java
 collection.get();
@@ -22,13 +29,13 @@ collection.get();
 ```
 #### Results
 ```text
-This is 50!!!!!%
-This is 50!!!!!%
-This is 50!!!!!%
-This is 50!!!!!%
-This is 10!%
-This is 50!!!!!%
-This is 50!!!!!%
-This is 30!!!%
-This is 50!!!!!%
+This is 30%!!!
+This is 50%!!!!!
+This is 30%!!!
+This is 10%!
+This is 30%!!!
+This is 50%!!!!!
+This is 50%!!!!!
+This is 30%!!!
+This is 50%!!!!!
 ```
