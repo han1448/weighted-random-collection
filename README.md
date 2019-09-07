@@ -11,7 +11,7 @@ WeightedRandomCollection<String> collection = new WeightedRandomCollection<>();
 ```java
 collection.add(5, "This is 50%!!!!!");
 collection.add(3, "This is 30%!!!");
-collection.add(1, "This is 10%!");
+collection.add(2, "This is 20%!");
 ```
 
 ### Get element
@@ -32,7 +32,7 @@ collection.get();
 This is 30%!!!
 This is 50%!!!!!
 This is 30%!!!
-This is 10%!
+This is 20%!
 This is 30%!!!
 This is 50%!!!!!
 This is 50%!!!!!
